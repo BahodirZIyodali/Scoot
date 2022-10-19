@@ -1,0 +1,373 @@
+.last {
+  background-image: url(../../img/Mask.png);
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    margin: 100px 165px 0 0;
+    width: 415px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #ffffff;
+  }
+  &__card{
+    width: 159px;
+    height: 56px;
+    background: $snow;
+    position: relative;
+    top: -70px;
+    left: 700px;
+    border-radius: 4px;
+    
+    &--span{
+        position: relative;
+        top: -10px;     
+    }
+    &--img{
+        position: relative;
+        top: 10px;
+        left: 6px;     
+    }
+    &--title{
+        position: relative;
+        left: 50px;     
+    }
+  }
+  &__card1{
+   margin-bottom: -53px;
+    width: 159px;
+    height: 56px;
+    background: $snow;
+    position: relative;
+    top: -125px;
+    left: 900px;
+    border-radius: 4px;
+    
+    &--span{
+        position: relative;
+        top: -10px;     
+    }
+    &--img{
+        position: relative;
+        top: 10px;
+        left: 6px;     
+    }
+    &--title{
+        position: relative;
+        left: 50px;     
+    }
+  }
+  &__card:hover{
+    background-color: #fff;
+    border: dashed 3px $yellow;
+    color: $yellow;
+  }
+  &__card1:hover{
+  
+    border: dashed 3px $yellow;
+    color: $yellow;
+  }
+}
+@media screen and(max-width:992px){
+  .last {
+    background-image: url(../../img/Mask.png);
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title {
+     position: relative;
+     top: -100px;
+     left: 200px;
+      width: 457px;
+height: 96px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -2.14286px;
+color: #FFFFFF;
+    }
+    &__card{
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -70px;
+      left: 260px;
+      border-radius: 4px;
+      
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+    &__card1{
+     margin-bottom: -53px;
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -125px;
+      left: 450px;
+      border-radius: 4px;
+      
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+  }
+  
+}
+@media screen and(max-width:768px){
+  .last {
+    background-image: url(../../img/Mask.png);
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title {
+     position: relative;
+     top: -100px;
+     left: 200px;
+      width: 457px;
+height: 96px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+letter-spacing: -2.14286px;
+color: #FFFFFF;
+    }
+    &__card{
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -70px;
+      left: 260px;
+      border-radius: 4px;
+      
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+    &__card1{
+     margin-bottom: -53px;
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -125px;
+      left: 450px;
+      border-radius: 4px;
+      
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+  }
+  
+}
+@media screen and(max-width:568px){
+  .last {
+    background-image: url(../../img/Mask.png);
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title {
+      
+     position: relative;
+     top: -100px;
+     left: 70px;
+      width: 311px;
+      height: 64px;
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;     
+      text-align: center;
+      letter-spacing: -1.42857px;
+      color: #FFFFFF;
+    }
+    &__card{
+     
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -70px;
+      left:80px;
+      border-radius: 4px;
+     
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+   
+    &__card1{
+     margin-bottom: -53px;
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -125px;
+      left:260px;
+      border-radius: 4px;
+     
+      
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+    
+  }
+  
+}
+@media screen and(max-width:375px){
+  .last {
+    background-image: url(../../img/Mask.png);
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title {
+     position: relative;
+     top: -100px;
+     left: 70px;
+      width: 311px;
+      height: 64px;
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;     
+      text-align: center;
+      letter-spacing: -1.42857px;
+      color: #FFFFFF;
+    }
+    &__card{
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -70px;
+      left:50px;
+      border-radius: 4px;
+      
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+    &__card1{
+     margin-bottom: -53px;
+      width: 159px;
+      height: 56px;
+      background: $snow;
+      position: relative;
+      top: -125px;
+      left:250px;
+      border-radius: 4px;
+      
+      &--span{
+          position: relative;
+          top: -10px;     
+      }
+      &--img{
+          position: relative;
+          top: 10px;
+          left: 6px;     
+      }
+      &--title{
+          position: relative;
+          left: 50px;     
+      }
+    }
+  }
+  
+}

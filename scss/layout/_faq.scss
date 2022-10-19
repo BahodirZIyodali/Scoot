@@ -1,0 +1,342 @@
+.faq {
+ 
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 160px;
+  &__title {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  &__card {
+    :hover{
+      background-color: $ligthyellow;
+    }
+    &--title {
+      margin-top: 64px;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -1.78571px;
+      color: #495567;
+    }
+    &--first {
+      margin-top: -40px;
+      margin-left: 545px;
+      width: 730px;
+      height: 191px;
+      background-color: $snow;
+      &-name {
+        padding: 32px 40px 24px 40px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+       
+      }
+      &-img{
+         position: relative;
+         top: -50px;
+         left: 674px;
+        }
+      
+      &-desc {
+        padding-left: 40px;
+        width: 650px;
+        font-family: "Lexend Deca";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #495567;
+      }
+    }
+    &--second {
+      padding: 32px 40px;
+      margin-top: 16px;
+      margin-left: 545px;
+      width: 730px;
+      height: 92px;
+      background-color: $snow;
+      &-name {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+      }
+      &-img{
+         position: relative;
+         top: -40px;
+         left: 635px;
+        }
+    }
+    &--third {
+      padding: 32px 40px;
+      margin-top: 16px;
+      margin-left: 545px;
+      width: 730px;
+      height: 92px;
+      background-color: $snow;
+      &-name {
+         font-family: "Space Mono";
+         font-style: normal;
+         font-weight: 700;
+         font-size: 24px;
+         line-height: 28px;
+         letter-spacing: -1.07143px;
+         color: #495567;
+       }
+       &-img{
+         position: relative;
+         top: -40px;
+         left: 635px;
+        }
+    }
+  }
+}
+@media only  screen and (max-width:992px){
+  .faq {
+    max-width: 100%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 160px;
+    &__title {
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -2.14286px;
+      color: #495567;
+    }
+    &__card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     margin-left: -550px;
+      &--title {
+        margin-top: 64px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.78571px;
+        color: #495567;
+      }
+      &--first {
+        margin-top: -40px;
+        margin-left: 545px;
+        width: 730px;
+        height: 191px;
+        background-color: $snow;
+        &-name {
+          padding: 32px 40px 24px 40px;
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+         
+        }
+        &-img{
+           position: relative;
+           top: -50px;
+           left: 674px;
+          }
+        
+        &-desc {
+          padding-left: 40px;
+          width: 650px;
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #495567;
+        }
+      }
+      &--second {
+        padding: 32px 40px;
+        margin-top: 16px;
+        margin-left: 545px;
+        width: 730px;
+        height: 92px;
+        background-color: $snow;
+        &-name {
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+        }
+        &-img{
+           position: relative;
+           top: -40px;
+           left: 635px;
+          }
+      }
+      &--third {
+        
+        padding: 32px 40px;
+        margin-top: 16px;
+        margin-left: 545px;
+        width: 730px;
+        height: 92px;
+        background-color: $snow;
+        &-name {
+           font-family: "Space Mono";
+           font-style: normal;
+           font-weight: 700;
+           font-size: 24px;
+           line-height: 28px;
+           letter-spacing: -1.07143px;
+           color: #495567;
+         }
+         &-img{
+           position: relative;
+           top: -40px;
+           left: 635px;
+          }
+      }
+    }
+  }
+}
+@media screen and  (max-width:568px) {
+  .faq {
+     
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 160px;
+    &__title {
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -2.14286px;
+      color: #495567;
+    }
+    &__card {
+   
+      &--title {
+        margin-top: 64px;
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.78571px;
+        color: #495567;
+      }
+      &--first {
+        margin-top: -40px;      
+        width: 730px;
+        height: 191px;
+        background-color: $snow;
+        &-name {
+          margin-left: 160px;
+          padding: 32px 40px 24px 40px;
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 23px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+         
+        }
+        &-img{
+           position: relative;
+           
+          }
+        
+        &-desc {
+          margin-left: 200px;
+          padding-left: 40px;
+          width: 350px;
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #495567;
+        }
+      }
+      &--second {
+        padding: 32px 40px;
+        margin-top: 16px;
+        margin-left: 545px;
+        width: 730px;
+        height: 92px;
+        background-color: $snow;
+        &-name {
+        margin-left: 160px;
+
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+        }
+        &-img{
+           position: relative;
+           top: -40px;
+           left: 635px;
+          }
+      }
+      &--third {
+        padding: 32px 40px;
+        margin-top: 16px;
+        margin-left: 545px;
+        width: 730px;
+        height: 92px;
+        background-color: $snow;
+        &-name {
+          margin-left: 160px;
+
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+           line-height: 28px;
+           letter-spacing: -1.07143px;
+           color: #495567;
+         }
+         &-img{
+           position: relative;
+           top: -40px;
+           left: 635px;
+          }
+      }
+    }
+  } 
+}

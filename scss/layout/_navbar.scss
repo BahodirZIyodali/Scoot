@@ -1,0 +1,320 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo a {
+    font-size: 26px;
+    color: $darknavy;
+    text-decoration: none;
+  }
+  :hover {
+    color: $yellow;
+  }
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-top: 6px;
+    margin-left: -420px;
+    list-style-type: none;
+    &--list {
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+
+      &-link {
+        text-decoration: none;
+        color: $dimgrey;
+        :hover {
+          color: $yellow;
+        }
+      }
+    }
+  }
+  &__btn a {
+    position: relative;
+    top: 5px;
+    padding: 14px 39px;
+    background: $yellow;
+    text-decoration: none;
+    color: $snow;
+  }
+  &__btn a:hover {
+    color: $yellow;
+    background: $snow;
+    border: 3px solid $yellow;
+  }
+}
+// menu
+#check {
+  display: none;
+}
+nav label {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.bx {
+  display: none;
+}
+
+.menue {
+  display: none;
+}
+
+.menue ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+.menue ul li a {
+  color: white;
+  text-decoration: none;
+}
+.menue ul li a:hover {
+  color: $yellow;
+  text-decoration: none;
+}
+.label {
+  width: 50px;
+  margin: 10px 0;
+  transform: rotate(180deg);
+  color: white;
+}
+#check:checked ~ .menue {
+  left: 0;
+}
+
+// rwd
+@media only screen and (max-width: 992px) {
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    &__logo a {
+      font-size: 26px;
+      color: $darknavy;
+      text-decoration: none;
+    }
+    :hover {
+      color: $yellow;
+    }
+    &__ul {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      margin-top: 6px;
+      margin-left: 50px;
+      list-style-type: none;
+      &--list {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+
+        &-link {
+          text-decoration: none;
+          color: $dimgrey;
+        }
+      }
+    }
+    &__btn a {
+      position: relative;
+      top: 5px;
+      padding: 14px 39px;
+      background: $yellow;
+      text-decoration: none;
+      color: $snow;
+    }
+    &__btn a:hover {
+      color: $yellow;
+      background: $snow;
+      border: 3px solid $yellow;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    &__logo a {
+      font-size: 26px;
+      color: $darknavy;
+      text-decoration: none;
+    }
+    :hover {
+      color: $yellow;
+    }
+    &__ul {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      margin-top: 6px;
+      margin-left: 50px;
+      list-style-type: none;
+      &--list {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+
+        &-link {
+          text-decoration: none;
+          color: $dimgrey;
+        }
+      }
+    }
+    &__btn a {
+      position: relative;
+      top: 5px;
+      padding: 14px 39px;
+      background: $yellow;
+      text-decoration: none;
+      color: $snow;
+    }
+    &__btn a:hover {
+      color: $yellow;
+      background: $snow;
+      border: 3px solid $yellow;
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  .bx {
+    display: block;
+    color: #fcb72b;
+    margin-top: -20px;
+    margin-left: 32px;
+  }
+
+  .menue {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+
+    background: #333a44;
+    left: -100%;
+    top: 0;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: -3px 0px 50px rgba(36, 33, 33, 0.66);
+  }
+  nav label {
+    display: block;
+  }
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &__logo a {
+      text-align: center;
+      font-size: 26px;
+      color: $darknavy;
+      text-decoration: none;
+    }
+    :hover {
+      color: $yellow;
+    }
+    &__ul {
+      display: none;
+      justify-content: space-between;
+      width: 25%;
+      margin-top: 6px;
+      margin-left: -420px;
+      list-style-type: none;
+      &--list {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+
+        &-link {
+          text-decoration: none;
+          color: $dimgrey;
+        }
+      }
+    }
+    &__btn a {
+      position: relative;
+      top: 5px;
+      padding: 14px 39px;
+      background: $yellow;
+      text-decoration: none;
+      color: $snow;
+      display: none;
+    }
+    &__btn a:hover {
+      color: $yellow;
+      background: $snow;
+      border: 3px solid $yellow;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &__logo a {
+      text-align: center;
+      font-size: 26px;
+      color: $darknavy;
+      text-decoration: none;
+    }
+    :hover {
+      color: $yellow;
+    }
+    &__ul {
+      display: none;
+      justify-content: space-between;
+      width: 25%;
+      margin-top: 6px;
+      margin-left: -420px;
+      list-style-type: none;
+      &--list {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+
+        &-link {
+          text-decoration: none;
+          color: $dimgrey;
+        }
+      }
+    }
+    &__btn a {
+      position: relative;
+      top: 5px;
+      padding: 14px 39px;
+      background: $yellow;
+      text-decoration: none;
+      color: $snow;
+      display: none;
+    }
+    &__btn a:hover {
+      color: $yellow;
+      background: $snow;
+      border: 3px solid $yellow;
+    }
+  }
+}

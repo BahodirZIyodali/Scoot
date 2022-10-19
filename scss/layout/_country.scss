@@ -1,0 +1,483 @@
+.country {
+  
+  margin-bottom: 24px;
+  width: 1110px;
+  height: 128px;
+  background: #f2f5f9;
+  &__name {
+    padding: 32px 40px 0 40px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: #495567;
+  }
+  &__count {
+    padding: 8px 40px;
+   
+  }
+  &__link1 {
+   
+    position: relative;
+    top: -10px;
+    left: 620px;
+    padding: 14px 60px ;
+    background-color: $yellow;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  
+  }
+  &__link1:hover{
+    background-color: #fff;
+    border: solid 3px $yellow;
+    color: $yellow;
+
+  }
+  &__link2 {
+    position: relative;
+    top: -10px;
+    left: 640px;
+    padding: 14px 60px ;
+    background-color: $yellow;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &__link2:hover{
+    background-color: #fff;
+    border: solid 3px $yellow;
+    color: $yellow;
+
+  }
+  &__link3 {
+    position: relative;
+    top: -10px;
+    left: 580px;
+    padding: 14px 60px ;
+    background-color: $yellow;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &__link3:hover{
+    background-color: #fff;
+    border: solid 3px $yellow;
+    color: $yellow;
+
+  }
+  &__link4 {
+    position: relative;
+    top: -10px;
+    left: 580px;
+    padding: 14px 60px ;
+    background-color: $yellow;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &__link4:hover{
+    background-color: #fff;
+    border: solid 3px $yellow;
+    color: $yellow;
+
+  }
+  &__link5 {
+    position: relative;
+    top: -10px;
+    left: 620px;
+    padding: 14px 60px ;
+    background-color: $yellow;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &__link5:hover{
+    background-color: #fff;
+    border: solid 3px $yellow;
+    color: $yellow;
+
+  }
+  &__link6 {
+    position: relative;
+    top: -10px;
+    left: 580px;
+    padding: 14px 60px ;
+    background-color: $yellow;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+ 
+  }
+  &__link6:hover{
+    background-color: #fff;
+    border: solid 3px $yellow;
+    color: $yellow;
+
+  }
+ 
+
+
+  
+}
+.our__card--desc1{
+  margin-top: 15px;
+  width: 311px;
+height: 75px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+
+color: #939CAA;
+}
+@media screen and (max-width:992px) {
+  .country {
+  
+    margin-bottom: 24px;
+    width: 1110px;
+    height: 128px;
+    background: #f2f5f9;
+    &__name {
+      padding: 32px 40px 0 40px;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07143px;
+      color: #495567;
+    }
+    &__count {
+      padding: 8px 40px;
+     
+    }
+    &__link1 {
+     
+      position: relative;
+      top: -10px;
+      left: 400px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    
+    }
+    &__link1:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link2 {
+      position: relative;
+      top: -10px;
+      left: 420px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link2:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link3 {
+      position: relative;
+      top: -10px;
+      left: 360px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link3:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link4 {
+      position: relative;
+      top: -10px;
+      left: 360px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link4:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link5 {
+      position: relative;
+      top: -10px;
+      left: 400px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link5:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link6 {
+      position: relative;
+      top: -10px;
+      left: 360px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+   
+    }
+    &__link6:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+   
+  
+  
+    
+  }
+  
+}
+@media screen and (max-width:568px) {
+  .country {
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+    height: 128px;
+    background: #f2f5f9;
+    &__name {
+      padding: 32px 40px 0 40px;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07143px;
+      color: #495567;
+    }
+    &__count {
+      padding: 8px 40px;
+      align-items:center;
+     
+    }
+   
+    &__link1 {
+     
+      position: relative;
+      top: 20px;
+      left:25px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    
+    }
+    &__link1:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link2 {
+      position: relative;
+      top: 40px;
+      left: -80px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link2:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link3 {
+      position: relative;
+      top: 20px;
+      left:25px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link3:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link4 {
+      position: relative;
+      top: 20px;
+      left:25px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link4:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link5 {
+      position: relative;
+      top: 20px;
+      left:25px;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    &__link5:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+    &__link6 {
+      position: relative;
+      top: 20px;
+      left:25px;;
+      padding: 14px 60px ;
+      background-color: $yellow;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      text-decoration: none;
+       
+    }
+    &__link6:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+   
+  
+  
+    
+  }
+  
+}

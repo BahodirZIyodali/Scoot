@@ -1,0 +1,328 @@
+.wrapper {
+  margin-top: 208px;
+ 
+
+  &__path {
+    width: 974px;
+    height: 1px;
+    border: 12px solid #e5ecf4;
+    position: relative;
+    left: -160px;
+
+    &--img1 {
+      position: relative;
+      top: -50px;
+      left: 135px;
+    }
+    &--img2 {
+      position: relative;
+      top: -50px;
+      left: 440px;
+    }
+    &--img3 {
+      position: relative;
+      top: -50px;
+      left: 660px;
+    }
+  }
+  &__context {
+   display: flex;
+   justify-content: space-between;
+  
+  &--wrap{
+  
+  
+    margin-top: 80px;
+    width: 350px;
+    height: 155px;
+    gap: 30px;
+  
+    &-title {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        margin-bottom: 27px;
+      }
+      &-desc {
+        font-family: "Lexend Deca";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939caa;
+      }
+  }
+   
+  }
+}
+
+  @media screen and (max-width:768px) {
+    .wrapper {
+      margin-top: 208px;
+  
+      
+    
+      &__path {
+        width: 974px;
+        height: 1px;
+        border: 12px solid #e5ecf4;
+        position: relative;
+        left: -160px;
+    
+        &--img1 {
+        
+          position: relative;
+          top:600px;
+          left: 135px;
+        }
+        &--img2 {
+          position: relative;
+          top: 0px;
+          left: 30px;
+        }
+        &--img3 {
+          position: relative;
+          top: 600px;
+          left: -80px;
+        }
+      }
+      &__context {
+      display: flex;
+      flex-direction: column; 
+      text-align: center;
+      
+      
+      &--wrap{
+      
+      
+        margin-top: 80px;
+        width: 350px;
+        height: 155px;
+        gap: 30px;
+      
+        &-title {
+            font-family: "Space Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -1.07143px;
+            color: #495567;
+            margin-bottom: 27px;
+          }
+          &-desc {
+            font-family: "Lexend Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+          }
+      }
+      
+      }
+    }
+    
+  }
+@media screen and (max-width:992px) {
+  .wrapper {
+    margin-top: 208px;
+ 
+    
+  
+    &__path {
+      width: 974px;
+      height: 1px;
+      border: 12px solid #e5ecf4;
+      position: relative;
+      left: -160px;
+  
+      &--img1 {
+      
+        position: relative;
+        top:300px;
+        left: 135px;
+      }
+      &--img2 {
+        position: relative;
+        top: 0px;
+        left: 30px;
+      }
+      &--img3 {
+        position: relative;
+        top: 600px;
+        left: -80px;
+      }
+    }
+    &__context {
+     display: flex;
+     flex-direction: column; 
+     text-align: center;
+     margin-left: 250px;
+    
+    &--wrap{
+    
+    
+      margin-top: 80px;
+      width: 350px;
+      height: 155px;
+      gap: 30px;
+    
+      &-title {
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          margin-bottom: 27px;
+        }
+        &-desc {
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #939caa;
+        }
+    }
+     
+    }
+  }
+  
+}
+@media screen and (max-width:576px) {
+  .wrapper {
+    margin-top: 208px;
+ 
+    
+  
+    &__path {
+      width: 974px;
+      height: 1px;
+      border: 12px solid #e5ecf4;
+      position: relative;
+      left: -160px;
+  
+      &--img1 {
+      
+        position: relative;
+        top:260px;
+        left: 310px;
+      }
+      &--img2 {
+        position: relative;
+        top: 0px;
+        left: 200px;
+      }
+      &--img3 {
+        position: relative;
+        top: 493px;
+        left: 100px;
+      }
+    }
+    &__context {
+      margin-top: 20px;
+     display: flex;
+     flex-direction: column; 
+     margin-left: 50px;
+    
+    &--wrap{
+      margin-top: 80px;
+      width: 350px;
+      height: 155px;
+      gap: 30px;
+    
+      &-title {
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          margin-bottom: 27px;
+        }
+        &-desc {
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #939caa;
+        }
+    }
+     
+    }
+  }
+  
+}
+@media screen and (max-width:375px) {
+  .wrapper {
+    margin-top: 208px;
+    margin-left: -50px;
+    &__path {
+      width: 974px;
+      height: 1px;
+      border: 12px solid #e5ecf4;
+      position: relative;
+      left: -160px;
+  
+      &--img1 {
+      
+        position: relative;
+        top:260px;
+        left: 330px;
+      }
+      &--img2 {
+        position: relative;
+        top: 0px;
+        left: 230px;
+      }
+      &--img3 {
+        position: relative;
+        top: 493px;
+        left: 120px;
+      }
+    }
+    &__context {
+      margin-top: 20px;
+     display: flex;
+     flex-direction: column; 
+     
+    
+    &--wrap{
+      margin-top: 80px;
+      width: 350px;
+      height: 155px;
+      gap: 30px;
+    
+      &-title {
+          font-family: "Space Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          margin-bottom: 27px;
+        }
+        &-desc {
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          color: #939caa;
+        }
+    }
+     
+    }
+  }
+  
+}

@@ -1,0 +1,197 @@
+.massage {
+  margin-top: 800px;
+  
+
+  &__title {
+    width: 351px;
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  &__desc{
+    margin-top: -100px;
+    margin-left: 400px;
+ width: 445px;   
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+  }
+  &__link{
+   position: relative;
+   top: -50px;
+    margin-left: 900px;
+    padding: 14px 44px;
+    background-color: $yellow;
+    color:#fff;
+    text-decoration: none;
+
+  
+  }
+  &__link:hover{
+    background-color: #fff;
+    border: solid 3px $yellow;
+    color: $yellow;
+
+  }
+}
+@media screen and (max-width:992px) {
+  .massage {
+    margin-top: 800px;
+    margin-left: 100px;
+    
+  
+    &__title {
+      position: relative;
+      top: -250px;
+      left: 200px;
+      width: 351px;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14286px;
+      color: #495567;
+    }
+    &__desc{
+      margin-top: -240px;
+      margin-left: 130px;
+      text-align: center;
+   width: 445px;   
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+    }
+    &__link{
+     position: relative;
+      top: 25px;
+      margin-left:250px;
+      padding: 14px 44px;
+      background-color: $yellow;
+      color:#fff;
+      text-decoration: none;
+  
+    
+    }
+    &__link:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+  }
+}
+
+@media screen and (max-width:769px) {
+  .massage {
+    margin-top: 800px;
+    align-items: center;
+    
+  
+    &__title {
+      position: relative;
+      top: -250px;
+      left: 200px;
+      width: 351px;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14286px;
+      color: #495567;
+    }
+    &__desc{
+      margin-top: -240px;
+      margin-left: 130px;
+      text-align: center;
+   width: 445px;   
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+    }
+    &__link{
+     position: relative;
+      top: 25px;
+      margin-left:250px;
+      padding: 14px 44px;
+      background-color: $yellow;
+      color:#fff;
+      text-decoration: none;
+  
+    
+    }
+    &__link:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+  }
+}
+@media screen and (max-width:578px) {
+  .massage {
+    
+    margin-top: 1000px;
+  margin-left: -150px;
+    
+  
+    &__title {
+      position: relative;
+      top: -250px;
+      left: 240px;
+      width: 351px;
+      font-family: "Space Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+line-height: 32px;
+      letter-spacing: -2.14286px;
+      color: #495567;
+    }
+    &__desc{
+      margin-top: -240px;
+      margin-left: 200px;
+      width: 311px;
+      height: 125px;    
+      font-family: 'Lexend Deca';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #939CAA;
+      
+    }
+    &__link{
+     position: relative;
+      top: 25px;
+      margin-left:250px;
+      padding: 14px 44px;
+      background-color: $yellow;
+      color:#fff;
+      text-decoration: none;
+  
+    
+    }
+    &__link:hover{
+      background-color: #fff;
+      border: solid 3px $yellow;
+      color: $yellow;
+  
+    }
+  }
+}
